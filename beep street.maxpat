@@ -14,6 +14,19 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-2",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1199.0, 49.0, 567.0, 319.0 ],
+					"text" : "+VCA ayarlamaca\n+Aux send system \n+Butun sistemlerde ayni tuning caldigi sistem\n+Mute on/off automation keyboard ve cirklon\n+Nord drum tek stereo randomization system\n+Timestretch Max clone\n+quadrax filter ile calis\n+warm audio’yu test et, hangi kanal yanik\n+diger warm audio’yu kur, nord drum girsin\n+chromophone tube-eurorack modulune max’den birseyler gir,\n+quad vca calisiyor mu?\n+ableton ile prophet-x ve iridium tuning filelarini esitle\n+bateri sistemini bagla onun kablosu filan,\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
