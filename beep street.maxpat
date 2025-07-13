@@ -14,14 +14,156 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 1000.0, 780.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 228.0, 40.0, 22.0 ],
+									"text" : "s dis1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 129.0, 61.0, 22.0 ],
+									"text" : "pipe 1000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 50.0, 164.0, 24.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 97.0, 56.0, 66.0, 66.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 100.0, 70.0, 22.0 ],
+									"text" : "loadmess 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 194.0, 77.0, 22.0 ],
+									"text" : "fullscreen $1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 73.0, 59.0, 52.0, 22.0 ],
+					"text" : "p initials"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1703.0, 835.0, 38.0, 22.0 ],
+					"text" : "r dis1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1703.0, 865.0, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 20.0,
 					"id" : "obj-2",
-					"linecount" : 13,
+					"linecount" : 17,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1199.0, 49.0, 567.0, 319.0 ],
-					"text" : "+VCA ayarlamaca\n+Aux send system \n+Butun sistemlerde ayni tuning caldigi sistem\n+Mute on/off automation keyboard ve cirklon\n+Nord drum tek stereo randomization system\n+Timestretch Max clone\n+quadrax filter ile calis\n+warm audio’yu test et, hangi kanal yanik\n+diger warm audio’yu kur, nord drum girsin\n+chromophone tube-eurorack modulune max’den birseyler gir,\n+quad vca calisiyor mu?\n+ableton ile prophet-x ve iridium tuning filelarini esitle\n+bateri sistemini bagla onun kablosu filan,\n"
+					"patching_rect" : [ 1199.0, 49.0, 567.0, 386.0 ],
+					"text" : "st\n+VCA ayarlamaca\n+Aux send system \n+warm audio’yu test et, hangi kanal yanik\n+quad vca calisiyor mu?\n+finger drum sistemini bagla onun kablosu filan, \n+butun usb kablolar ve gir bilgisayara\nmt\n+Butun sistemlerde ayni tuning caldigi sistem\n+Nord drum tek stereo randomization system\n+quadrax filter ile calis // firmware update\n+Timestretch Max clone\n+Mute on/off automation keyboard ve cirklon\n+bu cv matrix modulunu app’ten kontrol etmeyi dene\nlt\n+chromophone tube-eurorack modulune max’den birseyler gir,\n+automator"
 				}
 
 			}
@@ -1158,6 +1300,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-151", 0 ],
 					"source" : [ "obj-125", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
