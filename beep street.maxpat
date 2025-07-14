@@ -29,7 +29,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 1000.0, 780.0 ],
+						"rect" : [ 34.0, 62.0, 1852.0, 984.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -158,12 +158,12 @@
 				"box" : 				{
 					"fontsize" : 20.0,
 					"id" : "obj-2",
-					"linecount" : 17,
+					"linecount" : 27,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1199.0, 49.0, 567.0, 386.0 ],
-					"text" : "st\n+VCA ayarlamaca\n+Aux send system \n+warm audio’yu test et, hangi kanal yanik\n+quad vca calisiyor mu?\n+finger drum sistemini bagla onun kablosu filan, \n+butun usb kablolar ve gir bilgisayara\nmt\n+Butun sistemlerde ayni tuning caldigi sistem\n+Nord drum tek stereo randomization system\n+quadrax filter ile calis // firmware update\n+Timestretch Max clone\n+Mute on/off automation keyboard ve cirklon\n+bu cv matrix modulunu app’ten kontrol etmeyi dene\nlt\n+chromophone tube-eurorack modulune max’den birseyler gir,\n+automator"
+					"patching_rect" : [ 1199.0, 49.0, 567.0, 610.0 ],
+					"text" : "st\n+VCA ayarlamaca\n+Aux send system \n+warm audio’yu test et, hangi kanal yanik\n+quad vca calisiyor mu?\n+finger drum sistemini bagla onun kablosu filan, \n+butun usb kablolar ve gir bilgisayara\n+samplerobot ile chromophone veya baska bir synthi samplela iridium veya prophet-x’e ekle\n+logic kayit sistemi\nmt\n+max’den console’a route etme sistemi,  //latency calculate\n+Butun sistemlerde ayni tuning caldigi sistem\n+Nord drum tek stereo randomization system\n+quadrax filter ile calis // firmware update\n+Timestretch Max clone\n+Mute on/off automation keyboard ve cirklon\n+bu cv matrix modulunu app’ten kontrol etmeyi dene\nlt\n+chromophone tube-eurorack modulune max’den birseyler gir,\n+automator\n+samplerobot.com/pages/support\nzt\n+Max_system dosyasini temizle\n??\nnord drum sistemi\nstereo"
 				}
 
 			}
